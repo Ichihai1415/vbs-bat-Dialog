@@ -1,4 +1,5 @@
 @echo off
+rem  _msgbox.vbsã‚’èµ·å‹•ã™ã‚‹ é–‰ã˜ãŸã‚‰ã¾ãŸè¡¨ç¤º
 :roop
-echo msgbox "OK‚Ü‚½‚Í‚˜‚ð‰Ÿ‚·‚Æ•Â‚¶‚ÄÄ•\Ž¦‚µ‚Ü‚·B",vbCritical,"Œx" > %TEMP%/msgboxtest.vbs & %TEMP%/msgboxtest.vbs
+cscript //nologo _msgbox.vbs
 goto roop
